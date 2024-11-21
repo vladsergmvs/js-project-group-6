@@ -16,3 +16,36 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+
+/////////////////////////////
+
+@media screen and (min-width: 1280px) {
+.faq-title {
+        font-weight: 400;
+        font-size: 108px;
+        line-height: 115%;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+
+    }
+
+    .span-faq-title {
+        color: var(--color-green);
+    }
+
+    .faq-title-container {
+        /* position: relative;
+left: -640px;
+top: 0px; */
+    }
+
+    .faq-container {
+        display: flex;
+        flex-direction: row;
+        /* position: relative; */
+    }
+
+
+}
